@@ -1,14 +1,16 @@
 import { useState } from 'react'
 import './App.css'
 import { GlobalStyle } from './global'
+import { Header } from './components/Header'
 
-function App() {  
+function App() {
 
 
   return (
     <>
       <div>
-      <h1>hello wourd</h1> 
+      <Header/>
+      <h1>hello wourd</h1>
       <GlobalStyle/>
       </div>
     </>
